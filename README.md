@@ -12,7 +12,7 @@
 2. Ipv4 address -> **[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*$**
     * **Command:** grep -E "above regex" file-with-ip-addressese.txt
 
-3. Paragraph of text -> **^$\n\_.\{-}\n$**
+3. Paragraph of text -> **[A-Z].*?[?!.]\n**
     * **Command:** grep -E "above regex" textfile.txt
 
 
